@@ -1,0 +1,14 @@
+.error__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    
+    &-title {
+        font-size: 36px;
+        color: rgb(0, 183, 255);
+        margin-top: 15px;
+    }
+}
+

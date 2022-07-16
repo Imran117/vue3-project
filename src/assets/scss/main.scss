@@ -1,0 +1,29 @@
+@import './common/root.scss';
+@import './common/404.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgb(211, 211, 211);
+  &__nav {
+    @include block-between;
+    padding: 30px 0;
+    &-logo {
+      @include title;
+    }
+
+    &-list {
+      @include block-center;
+    }
+
+    &-link {
+      @include text;
+      text-transform: capitalize;
+      margin: 0 15px;
+    }
+  }
+}
